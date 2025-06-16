@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIQBUY - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="UNIQBUY Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html" class="highlight">Cart (<span id="cart-count">0</span>)</a>
+            <a href="login.html" class="highlight">Login</a>
+            <a href="signup.html" class="highlight">Signup</a>
+        </nav>
+    </header>
+
+    <div id="cart-content">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <!-- Cart items will be displayed here -->
+        </div>
+        <div id="cart-total">
+            <p>Total: ₹<span id="total-price">0</span></p>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+</body>
+</html>

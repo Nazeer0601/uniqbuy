@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIQBUY - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="UNIQBUY Logo">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html" class="highlight">Cart (<span id="cart-count">0</span>)</a>
+            <a href="login.html" class="highlight">Login</a>
+            <a href="signup.html" class="highlight">Signup</a>
+        </nav>
+    </header>
+
+    <!-- Scrolling Sales Deals -->
+    <div id="deals">
+        <p>🎉 Mega Sale! Get up to 50% off on selected products! 🎉</p>
+    </div>
+
+    <!-- Categories Navigation -->
+    <nav>
+        <div class="category-links">
+            <span class="category-link" data-category="mobiles">Mobiles</span>
+            <span class="category-link" data-category="electronics">Electronics</span>
+            <span class="category-link" data-category="appliances">Appliances</span>
+            <span class="category-link" data-category="fashion">Fashion</span>
+            <span class="category-link" data-category="gadgets">Gadgets</span>
+            <span class="category-link" data-category="health">Health & Beauty</span>
+            <span class="category-link" data-category="dry-fruits">Dry Fruits</span>
+            <span class="category-link" data-category="seeds">Seeds</span>
+        </div>
+    </nav>
+
+    <!-- Product Display Section -->
+    <div class="product-container" id="product-list">
+        <!-- Products will be dynamically inserted here using JavaScript -->
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
